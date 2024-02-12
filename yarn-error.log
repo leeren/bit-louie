@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/leeren/.nvm/versions/node/v18.0.0/bin/node /Users/leeren/.nvm/versions/node/v18.0.0/bin/yarn install
+
+PATH: 
+  /Users/leeren/.local/bin:/Users/leeren/.nvm/versions/node/v18.0.0/bin:/Users/leeren/.local/bin:/Users/leeren/.cargo/bin:/usr/local/mysql/bin:/usr/local/bin:/Users/leeren/Library/Python/3.8/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin://Users/leeren/go/bin:/Users/leeren/.foundry/bin:/Users/leeren/google-cloud-sdk/bin://Users/leeren/go/bin:/Users/leeren/.foundry/bin:/Users/leeren/google-cloud-sdk/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/leeren/louie/package.json: Unexpected token } in JSON at position 521
+      at JSON.parse (<anonymous>)
+      at /Users/leeren/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/leeren/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/leeren/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "bit-louie",
+    "version": "1.0.0",
+    "description": "",
+    "directories": {
+      "lib": "lib",
+      "test": "test"
+    },
+    "author": "@leeren",
+    "license": "MIT",
+    "devDependencies": {
+      "eslint": "^8.56.0",
+      "eslint-plugin-prettier": "^5.1.3",
+      "forge-std": "github:foundry-rs/forge-std#v1.7.6",
+      "prettier": "^3.0.0",
+      "prettier-plugin-solidity": "^1.1.0",
+      "solhint": "^4.1.1",
+      "solhint-community": "^3.7.0",
+      "solhint-plugin-prettier": "^0.1.0",
+      "solidity-coverage": "^0.8.6",
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "5.0.1",
+      "@openzeppelin/contracts-upgradeable": "5.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
